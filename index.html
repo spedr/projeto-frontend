@@ -1,0 +1,66 @@
+<body>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+<section class="login-container">
+  <div class="login-content">
+    <div class="image-column">
+      <div class="image-wrapper">
+        <img
+          loading="lazy"
+          src="./res/imagem.svg"
+          class="login-image"
+          alt="Login illustration"
+        />
+      </div>
+    </div>
+    <div class="form-column">
+      <form class="login-form">
+        <h2 class="welcome-text">Bem-vindo de volta</h2>
+        <h1 class="login-title">Faça login na sua conta</h1>
+
+        <label for="email" class="input-label">E-mail</label>
+        <input
+          type="email"
+          id="email"
+          class="input-field" q
+          placeholder="exemplo@gmail.com"
+          required
+        />
+
+        <label for="password" class="input-label">Senha</label>
+        <input
+          type="password"
+          id="password"
+          class="input-field"
+          placeholder="0123456789"
+          required
+        />
+
+        <div class="form-options">
+          <div class="remember-me">
+            <input type="checkbox" id="remember" class="checkbox" />
+            <label for="remember" class="checkbox-label">Lembre de mim</label>
+          </div>
+          <a href="#" class="forgot-password">Esqueceu sua senha?</a>
+        </div>
+
+        <button type="submit" class="login-button">Entrar na conta</button>
+
+        <button type="button" class="google-login">
+          <img
+            loading="lazy"
+            src="./res/google.svg"
+            class="google-icon"
+            alt="Google logo"
+          />
+          <span class="google-text">Ou faça login com o Google</span>
+        </button>
+
+        <p class="signup-prompt">
+          Não tem uma conta? <a href="#" class="signup-link">Cadastre-se</a>
+        </p>
+      </form>
+    </div>
+  </div>
+</section>
+</body>
